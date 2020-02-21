@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		7E30857823EC4EEA00F1BCE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30857723EC4EEA00F1BCE4 /* AppDelegate.swift */; };
 		7E30857A23EC4EEA00F1BCE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30857923EC4EEA00F1BCE4 /* SceneDelegate.swift */; };
-		7E30857C23EC4EEA00F1BCE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30857B23EC4EEA00F1BCE4 /* ViewController.swift */; };
+		7E30857C23EC4EEA00F1BCE4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30857B23EC4EEA00F1BCE4 /* MainViewController.swift */; };
 		7E30857F23EC4EEA00F1BCE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E30857D23EC4EEA00F1BCE4 /* Main.storyboard */; };
 		7E30858123EC4EEC00F1BCE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E30858023EC4EEC00F1BCE4 /* Assets.xcassets */; };
 		7E30858423EC4EEC00F1BCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E30858223EC4EEC00F1BCE4 /* LaunchScreen.storyboard */; };
 		7E30858F23EC4EEC00F1BCE4 /* MAD_Periodic_TableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30858E23EC4EEC00F1BCE4 /* MAD_Periodic_TableTests.swift */; };
 		7E30859A23EC4EEC00F1BCE4 /* MAD_Periodic_TableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30859923EC4EEC00F1BCE4 /* MAD_Periodic_TableUITests.swift */; };
-		7E910EFC23FEC84C00CD2FF4 /* DiscoveryElements61_90.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E910EF723FEC84C00CD2FF4 /* DiscoveryElements61_90.swift */; };
-		7E910EFD23FEC84C00CD2FF4 /* DiscoveryElements91_118.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E910EF823FEC84C00CD2FF4 /* DiscoveryElements91_118.swift */; };
-		7E910EFE23FEC84C00CD2FF4 /* DiscoveryElements31_60.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E910EF923FEC84C00CD2FF4 /* DiscoveryElements31_60.swift */; };
-		7E910EFF23FEC84C00CD2FF4 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E910EFA23FEC84C00CD2FF4 /* Element.swift */; };
-		7E910F0023FEC84C00CD2FF4 /* DiscoveryElements1_30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E910EFB23FEC84C00CD2FF4 /* DiscoveryElements1_30.swift */; };
+		7E910F0623FECAC300CD2FF4 /* DiscoveryElements91_118.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E910F0123FECAC300CD2FF4 /* DiscoveryElements91_118.swift */; };
+		7E910F0723FECAC300CD2FF4 /* DiscoveryElements61_90.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E910F0223FECAC300CD2FF4 /* DiscoveryElements61_90.swift */; };
+		7E910F0823FECAC300CD2FF4 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E910F0323FECAC300CD2FF4 /* Element.swift */; };
+		7E910F0923FECAC300CD2FF4 /* DiscoveryElements31_60.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E910F0423FECAC300CD2FF4 /* DiscoveryElements31_60.swift */; };
+		7E910F0A23FECAC300CD2FF4 /* DiscoveryElements1_30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E910F0523FECAC300CD2FF4 /* DiscoveryElements1_30.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		7E30857423EC4EEA00F1BCE4 /* MAD Periodic Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAD Periodic Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E30857723EC4EEA00F1BCE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E30857923EC4EEA00F1BCE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E30857B23EC4EEA00F1BCE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E30857B23EC4EEA00F1BCE4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7E30857E23EC4EEA00F1BCE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E30858023EC4EEC00F1BCE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E30858323EC4EEC00F1BCE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,11 +54,11 @@
 		7E30859523EC4EEC00F1BCE4 /* MAD Periodic TableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAD Periodic TableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E30859923EC4EEC00F1BCE4 /* MAD_Periodic_TableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD_Periodic_TableUITests.swift; sourceTree = "<group>"; };
 		7E30859B23EC4EEC00F1BCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E910EF723FEC84C00CD2FF4 /* DiscoveryElements61_90.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoveryElements61_90.swift; path = "../../../Desktop/Xcode Projects/MAD Periodic Table/Data/DiscoveryElements61_90.swift"; sourceTree = "<group>"; };
-		7E910EF823FEC84C00CD2FF4 /* DiscoveryElements91_118.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoveryElements91_118.swift; path = "../../../Desktop/Xcode Projects/MAD Periodic Table/Data/DiscoveryElements91_118.swift"; sourceTree = "<group>"; };
-		7E910EF923FEC84C00CD2FF4 /* DiscoveryElements31_60.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoveryElements31_60.swift; path = "../../../Desktop/Xcode Projects/MAD Periodic Table/Data/DiscoveryElements31_60.swift"; sourceTree = "<group>"; };
-		7E910EFA23FEC84C00CD2FF4 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Element.swift; path = "../../../Desktop/Xcode Projects/MAD Periodic Table/Data/Element.swift"; sourceTree = "<group>"; };
-		7E910EFB23FEC84C00CD2FF4 /* DiscoveryElements1_30.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoveryElements1_30.swift; path = "../../../Desktop/Xcode Projects/MAD Periodic Table/Data/DiscoveryElements1_30.swift"; sourceTree = "<group>"; };
+		7E910F0123FECAC300CD2FF4 /* DiscoveryElements91_118.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryElements91_118.swift; sourceTree = "<group>"; };
+		7E910F0223FECAC300CD2FF4 /* DiscoveryElements61_90.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryElements61_90.swift; sourceTree = "<group>"; };
+		7E910F0323FECAC300CD2FF4 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		7E910F0423FECAC300CD2FF4 /* DiscoveryElements31_60.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryElements31_60.swift; sourceTree = "<group>"; };
+		7E910F0523FECAC300CD2FF4 /* DiscoveryElements1_30.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryElements1_30.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 			children = (
 				7E30857723EC4EEA00F1BCE4 /* AppDelegate.swift */,
 				7E30857923EC4EEA00F1BCE4 /* SceneDelegate.swift */,
-				7E30857B23EC4EEA00F1BCE4 /* ViewController.swift */,
+				7E30857B23EC4EEA00F1BCE4 /* MainViewController.swift */,
 				7E30857D23EC4EEA00F1BCE4 /* Main.storyboard */,
 				7E30858023EC4EEC00F1BCE4 /* Assets.xcassets */,
 				7E30858223EC4EEC00F1BCE4 /* LaunchScreen.storyboard */,
@@ -142,11 +142,11 @@
 		7E910EF623FEC80C00CD2FF4 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				7E910EFB23FEC84C00CD2FF4 /* DiscoveryElements1_30.swift */,
-				7E910EF923FEC84C00CD2FF4 /* DiscoveryElements31_60.swift */,
-				7E910EF723FEC84C00CD2FF4 /* DiscoveryElements61_90.swift */,
-				7E910EF823FEC84C00CD2FF4 /* DiscoveryElements91_118.swift */,
-				7E910EFA23FEC84C00CD2FF4 /* Element.swift */,
+				7E910F0523FECAC300CD2FF4 /* DiscoveryElements1_30.swift */,
+				7E910F0423FECAC300CD2FF4 /* DiscoveryElements31_60.swift */,
+				7E910F0223FECAC300CD2FF4 /* DiscoveryElements61_90.swift */,
+				7E910F0123FECAC300CD2FF4 /* DiscoveryElements91_118.swift */,
+				7E910F0323FECAC300CD2FF4 /* Element.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -282,14 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E30857C23EC4EEA00F1BCE4 /* ViewController.swift in Sources */,
+				7E910F0623FECAC300CD2FF4 /* DiscoveryElements91_118.swift in Sources */,
+				7E910F0723FECAC300CD2FF4 /* DiscoveryElements61_90.swift in Sources */,
+				7E910F0823FECAC300CD2FF4 /* Element.swift in Sources */,
+				7E30857C23EC4EEA00F1BCE4 /* MainViewController.swift in Sources */,
+				7E910F0923FECAC300CD2FF4 /* DiscoveryElements31_60.swift in Sources */,
 				7E30857823EC4EEA00F1BCE4 /* AppDelegate.swift in Sources */,
+				7E910F0A23FECAC300CD2FF4 /* DiscoveryElements1_30.swift in Sources */,
 				7E30857A23EC4EEA00F1BCE4 /* SceneDelegate.swift in Sources */,
-				7E910EFE23FEC84C00CD2FF4 /* DiscoveryElements31_60.swift in Sources */,
-				7E910EFC23FEC84C00CD2FF4 /* DiscoveryElements61_90.swift in Sources */,
-				7E910EFF23FEC84C00CD2FF4 /* Element.swift in Sources */,
-				7E910F0023FEC84C00CD2FF4 /* DiscoveryElements1_30.swift in Sources */,
-				7E910EFD23FEC84C00CD2FF4 /* DiscoveryElements91_118.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
